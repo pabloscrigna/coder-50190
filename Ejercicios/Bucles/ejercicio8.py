@@ -9,3 +9,6 @@ triángulo rectángulo como el de más abajo.
 9 7 5 3 1
 
 """
+
+
+

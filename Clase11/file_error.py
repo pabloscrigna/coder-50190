@@ -1,0 +1,2 @@
+
+open("datos.txt", "r")

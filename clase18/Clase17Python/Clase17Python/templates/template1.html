@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+</head>
+
+<body>
+    Ya tengo mi primer template!!!!
+
+    <p style="color: red">Mi nombre es {{datos_contexto.nombre}}</p>
+    <p style="color: green">Mi apellido es {{apellido}}</p>
+    <p style="color: green">Este template fue creado {{creado}}</p>
+
+    <h1>Curso {{curso}}</h1>
+
+    <p>
+        {% for nota in notas %}
+        {{nota}}
+        <br>
+        {% endfor %}
+    </p>
+</body>
+
+</html>

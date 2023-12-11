@@ -1,0 +1,17 @@
+Comandos para creación de repositorio Git y sincronización con GitHub:
+  git init  //inicializamos repositorio local 
+  git add *  //realizamos primer add para posterior commit
+  git commit -m "first commit"  //realizamos primer commit local
+  git branch -M main  //modificamos nombre de la rama master del repositorio local, a main
+  git remote add origin https://github.com/diazme1/Python-50190.git  //agregamos un acceso a repositorio remoto (al cual sincronizamos)
+  git push -u origin main  //realizamos el push correspondiente del repositorio local al repositorio remoto
+
+Comandos para la creación y uso de entorno virtual virtualenv:    
+  python -m venv nombreDeMiEntorno  //creamos entorno virtual asignando el nombre deseado
+  ./nombreDeMiEntorno/Scripts/activate  //activamos entorno virtual creado
+  deactivate //desactivo entorno virtual utilizado
+
+Comandos para instalación de Django (en entorno virtual y global):
+  pip install django  //utilizamos pip para instalar Django
+  pip freeze  //comprobamos que se encuentre instalado
+
